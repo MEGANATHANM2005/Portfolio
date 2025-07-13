@@ -32,12 +32,6 @@ Check it out here: https://meganathanm2005.github.io/Portfolio/
 
 ---
 
-## 📸 Screenshots
-
-> Add your website screenshots or demo GIFs here  
-> Example: `public/screenshot.png`
-
----
 
 ## 🚀 Getting Started Locally
 
