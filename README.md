@@ -8,8 +8,7 @@ Welcome to my personal portfolio website — a digital space where I showcase my
 
 ## 🔗 Live Demo
 
-Check it out here: [https://MEGANATHANM2005.github.io/your-repo-name](https://MEGANATHANM2005.github.io/your-repo-name)
-
+Check it out here: https://meganathanm2005.github.io/Portfolio/
 ---
 
 ## 🛠️ Tech Stack
