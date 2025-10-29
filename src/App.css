@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-text {
+    font-size: 3rem;
+    text-align: left;
+  }
+}

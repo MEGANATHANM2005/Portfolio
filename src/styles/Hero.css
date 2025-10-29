@@ -1,0 +1,69 @@
+/* src/styles/Hero.css */
+
+.stars-bg {
+  background: radial-gradient(circle at 20% 30%, #9c0f0f22 1px, transparent 1px),
+              radial-gradient(circle at 60% 70%, #ffffff11 1px, transparent 1px),
+              radial-gradient(circle at 80% 20%, #ffffff33 1px, transparent 1px);
+  background-size: 100% 100%;
+  animation: twinkle 5s infinite ease-in-out;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+/* src/styles/Hero.css */
+
+/* Base background gradient */
+.stars-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Glowing stars layer */
+.stars-bg::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background-image: 
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(#c0c0ff 1px, transparent 1px),
+    radial-gradient(#fff8f8 1px, transparent 1px);
+  background-size: 70px 70px, 100px 100px, 150px 150px;
+  background-position: 0 0, 40px 60px, 80px 120px;
+  animation: star-shine 6s infinite alternate ease-in-out;
+  opacity: 0.3;
+  filter: blur(1px);
+}
+
+/* Shine flicker animation */
+@keyframes star-shine {
+  0% {
+    opacity: 0.2;
+    filter: brightness(1);
+  }
+  50% {
+    opacity: 0.4;
+    filter: brightness(1.6);
+  }
+  100% {
+    opacity: 0.3;
+    filter: brightness(1.2);
+  }
+}
+
